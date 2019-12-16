@@ -1,6 +1,6 @@
 # A prometheus client library written in PHP
 
-[![CircleCI](https://circleci.com/gh/endclothing/prometheus_client_php/tree/master.svg?style=shield)](https://circleci.com/gh/endclothing/prometheus_client_php/tree/master)
+[![CircleCI](https://circleci.com/gh/martinssipenko/prometheus_client_php/tree/master.svg?style=shield)](https://circleci.com/gh/martinssipenko/prometheus_client_php/tree/master)
 
 This library uses Redis or APCu to do the client side aggregation.
 If using Redis, we recommend to run a local Redis instance next to your PHP workers.
@@ -17,7 +17,7 @@ While the first needs a separate binary running, the second just needs the [APC]
 Add as [Composer](https://getcomposer.org/) dependency:
 
 ```sh
-composer require endclothing/prometheus_client_php
+composer require martinssipenko/prometheus_client_php
 ```
 
 ## Usage
