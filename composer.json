@@ -1,15 +1,10 @@
 {
-    "name": "endclothing/prometheus_client_php",
+    "name": "martinssipenko/prometheus_client_php",
     "description": "Prometheus instrumentation library for PHP applications.",
     "type": "library",
     "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "Daniel Noel-Davies",
-            "email": "Daniel.Noel-Davies@endclothing.com"
-        }
-    ],
     "replace": {
+        "endclothing/prometheus_client_php": "*",
         "jimdo/prometheus_client_php": "*"
     },
     "require": {
